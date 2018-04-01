@@ -1,0 +1,29 @@
+{
+  "name": "movie-scrapper",
+  "version": "1.0.0",
+  "description": "an nodejs scrapper using cheerio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arularmstrong/movie-scrapper.git"
+  },
+  "keywords": [
+    "scrapper",
+    "cheerio"
+  ],
+  "author": "arul armstrong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arularmstrong/movie-scrapper/issues"
+  },
+  "homepage": "https://github.com/arularmstrong/movie-scrapper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}
